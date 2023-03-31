@@ -28,6 +28,9 @@ Create a file in root directory of project with env. And store your API key in i
 
 If you'd also like to do rate limiting, create an account on UpStash, create a Redis database, and populate the two environment variables in `.env` as well. If you don't want to do rate limiting, you don't need to make any changes.
 
+### Replace Stripe keys
+Replace Stripe pricing-table-id and publishable-key in pages/buy-credits.tsx with your own
+
 ### Installing the dependencies.
 
 ```bash
